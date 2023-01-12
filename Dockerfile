@@ -1,25 +1,25 @@
-cubejs/cube:v0.31.5
-danlynn/ember-cli:2.12.1
-golang:1.18.5
-jupyter/base-notebook:6e246ea4bbff
-jupyter/base-notebook:6cc4a8596a0b
-jupyterhub/k8s-hub:1.2.0
-nginx:1.23.1
-node:16.17.1-bullseye
-node:18.8.0-bullseye
-openjdk:11-jdk-slim
-openjdk:11-jre-slim
-openjdk:11-jre
-openjdk:14.0.1-jdk-buster
-openjdk:14.0.1-buster
-openjdk:17
-palantirtechnologies/bulldozer:1.9.1
-pandoc/latex:2.9.2
-public.ecr.aws/lambda/python:3.8
-python:3.7.13-bullseye
-python:3.8.13-bullseye
-python:3.9.13-bullseye
-python:3.10.6-bullseye
-quay.io/helmpack/chart-testing:v2.2.0
-quay.io/jcmoraisjr/haproxy-ingress:v0.12.3
-scratch
+FROM cubejs/cube:v0.31.5
+FROM danlynn/ember-cli:2.12.1
+FROM golang:1.18.5
+FROM jupyter/base-notebook:6e246ea4bbff
+FROM jupyter/base-notebook:6cc4a8596a0b
+FROM jupyterhub/k8s-hub:1.2.0
+FROM nginx:1.23.1
+FROM node:16.17.1-bullseye
+FROM node:18.8.0-bullseye
+FROM openjdk:11-jdk-slim
+FROM openjdk:11-jre-slim
+FROM openjdk:11-jre
+FROM openjdk:14.0.1-jdk-buster
+FROM openjdk:14.0.1-buster
+FROM openjdk:17
+FROM palantirtechnologies/bulldozer:1.9.1
+FROM pandoc/latex:2.9.2
+FROM public.ecr.aws/lambda/python:3.8
+FROM python:3.7.13-bullseye
+FROM python:3.8.13-bullseye
+FROM python:3.9.13-bullseye
+FROM python:3.10.6-bullseye
+FROM quay.io/helmpack/chart-testing:v2.2.0
+FROM quay.io/jcmoraisjr/haproxy-ingress:v0.12.3
+FROM scratch
