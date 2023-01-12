@@ -5,4 +5,4 @@ updates:
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "daily" #
